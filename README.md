@@ -6,8 +6,9 @@ there's also an alternate way to autoplay video in ios by adding an event on loa
 however, the problem i faced with this solution was that on ios device when we implement .play() through any event our video start playing in fullscreen which is not we want to happen since our video should be played in background.
 using canvas was the only effective solution i can come with it.
 
---------------alternative code using Jquery---------------------------------------
+
 (ps: for normal video background you can use alternative method using Jquery it work properly).
+--------------alternative code using Jquery---------------------------------------
 <('body').on('click touchstart', function () {
         const videoElement = document.getElementById('home_video');
         if (videoElement.playing) {
