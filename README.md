@@ -9,7 +9,7 @@ using canvas was the only effective solution i can come with it.
 
 (ps: for normal video background you can use alternative method using Jquery it work properly).
 --------------alternative code using Jquery---------------------------------------
-<('body').on('click touchstart', function () {
+('body').on('click touchstart', function () {
         const videoElement = document.getElementById('home_video');
         if (videoElement.playing) {
             // video is already playing so do nothing
